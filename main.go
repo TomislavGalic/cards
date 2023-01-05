@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-
-func main()  {
-	
+func main() {
+	cards := newDeck()
+	cards.saveToFile("my_cards")
 }
